@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | 8LegLabs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1a1a1a;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #e63946;
+    }
+    .photo {
+      display: block;
+      max-width: 300px;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+    .form {
+      background: #2a2a2a;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+    .form label {
+      display: block;
+      margin-top: 10px;
+    }
+    .form input, .form button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+    .form button {
+      background: #e63946;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>About Us</h1>
+    <img src="IMG-20250523-WA0002.jpg" alt="Michael and Cath from 8LegLabs" class="photo">
+    <p>We're Michael and Cath – the faces behind <strong>8LegLabs</strong>, a passion project turned mission after losing two of our beloved tarantulas to post-moult complications. Like so many in the exotic pet community, we felt helpless watching them struggle during what should have been a natural, healthy process. It shook us.</p>
+
+    <p>After connecting with hundreds of keepers online, we discovered that post-moult issues are a shared fear in the community – something many endure but few talk openly about. That's where <strong>MoultMend</strong> began: a supplement formulated with care, research, and a heartfelt goal to support tarantulas through one of their most vulnerable stages.</p>
+
+    <p>We’re not a big company. We’re hobbyists, just like you – with a growing menagerie of reptiles, inverts, and all things exotic. We believe the wellbeing of our animals comes before profits, and our goal with 8LegLabs is to offer genuinely helpful, affordable products built on real keeper experience.</p>
+
+    <p><strong>MoultMend</strong> is just the beginning. We’re here for the keepers, the breeders, the first-timers and the lifers. We’ll never stop learning, sharing, or innovating – because our pets deserve that from us.</p>
+
+    <div class="form">
+      <h2>Be the First to Know</h2>
+      <form action="https://formsubmit.co/8leglabs@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Notify Me Signup for MoultMend!">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <button type="submit">Notify Me at Launch</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
